@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/DescriptiveMathOperator.svg?style=flat)](https://cocoapods.org/pods/DescriptiveMathOperator)
 
 ## Description
-With this library you can easily use math operator in discriptive way.
+With this library, you can easily use math operators in a descriptive way.
 
 ### Example
 
