@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'DescriptiveMathOperator_Example' do
+  pod 'DescriptiveMathOperator', :path => '../'
+
+  target 'DescriptiveMathOperator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
