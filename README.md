@@ -7,9 +7,9 @@
 
 ## Description
 With this library you can easily use math operator in discriptive way.
+
 ### Example
 
-## Installation
 ```swift
 // Plus
 print("Plus", 12.plus(12))
@@ -23,6 +23,8 @@ print("Divide", 12.div(12))
 // Times
 print("Times", 12.times(12))
 ```
+## Installation
+
 DescriptiveMathOperator is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
