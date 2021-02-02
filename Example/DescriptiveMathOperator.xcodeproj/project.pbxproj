@@ -41,10 +41,10 @@
 		63DA60C37D7789159318A039 /* Pods-DescriptiveMathOperator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DescriptiveMathOperator_Example.debug.xcconfig"; path = "Target Support Files/Pods-DescriptiveMathOperator_Example/Pods-DescriptiveMathOperator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6E7B7813846C3D1499370231 /* Pods_DescriptiveMathOperator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DescriptiveMathOperator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A1A90C047A8FB921AE8395D /* Pods-DescriptiveMathOperator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DescriptiveMathOperator_Tests.release.xcconfig"; path = "Target Support Files/Pods-DescriptiveMathOperator_Tests/Pods-DescriptiveMathOperator_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A057811E90488E125FEDDEB6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		A0995296336FE51605162891 /* DescriptiveMathOperator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DescriptiveMathOperator.podspec; path = ../DescriptiveMathOperator.podspec; sourceTree = "<group>"; };
+		A057811E90488E125FEDDEB6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A0995296336FE51605162891 /* DescriptiveMathOperator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DescriptiveMathOperator.podspec; path = ../DescriptiveMathOperator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B20998D23ABDE8C62E3E3DFB /* Pods-DescriptiveMathOperator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DescriptiveMathOperator_Example.release.xcconfig"; path = "Target Support Files/Pods-DescriptiveMathOperator_Example/Pods-DescriptiveMathOperator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B6952977FB55CA604DD82461 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B6952977FB55CA604DD82461 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E65594EFBF6DA7B6CE8325B9 /* Pods-DescriptiveMathOperator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DescriptiveMathOperator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DescriptiveMathOperator_Tests/Pods-DescriptiveMathOperator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FD0BA65346CF5A886B42F1D2 /* Pods_DescriptiveMathOperator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DescriptiveMathOperator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -147,7 +147,6 @@
 				E65594EFBF6DA7B6CE8325B9 /* Pods-DescriptiveMathOperator_Tests.debug.xcconfig */,
 				7A1A90C047A8FB921AE8395D /* Pods-DescriptiveMathOperator_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
