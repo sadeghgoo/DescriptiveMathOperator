@@ -7,12 +7,24 @@
 //
 
 import UIKit
+import DescriptiveMathOperator
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+      
+      // Plus
+      print("Plus", 12.plus(12))
+      
+      // Minus
+      print("Minus", 12.minus(12))
+      
+      // Divide
+      print("Divide", 12.div(12))
+      
+      // Times
+      print("Times", 12.times(12))
     }
 
     override func didReceiveMemoryWarning() {

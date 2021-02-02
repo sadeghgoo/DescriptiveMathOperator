@@ -1,0 +1,16 @@
+PODS:
+  - DescriptiveMathOperator (0.1.0)
+
+DEPENDENCIES:
+  - DescriptiveMathOperator (from `../`)
+
+EXTERNAL SOURCES:
+  DescriptiveMathOperator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DescriptiveMathOperator: 47e37d922cc4ec528b272f447d503c5242b589de
+
+PODFILE CHECKSUM: 341ab3762a90411bbc768b81e6c16d196de66620
+
+COCOAPODS: 1.9.3

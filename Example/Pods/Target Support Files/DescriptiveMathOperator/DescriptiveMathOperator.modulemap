@@ -1,0 +1,6 @@
+framework module DescriptiveMathOperator {
+  umbrella header "DescriptiveMathOperator-umbrella.h"
+
+  export *
+  module * { export * }
+}
